@@ -4223,6 +4223,15 @@
 				z-index: -1;
 			}
 
+			@media screen and (max-width: 750px) {
+				article > .image-video {
+					visibility: hidden;
+					clear: both;
+					float: left;
+					display: none;
+				}
+			}
+
 		body.is-loading .banner:after {
 			opacity: 1.0;
 			visibility: visible;
